@@ -1,4 +1,4 @@
-let url = "https://raw.githubusercontent.com/realrealneel/10kFrench/main/french_midfreq_nouns_1000.json";
+let url = "https://raw.githubusercontent.com/realrealneel/FrenchWords/main/french_midfreq_nouns_1000.json";
 
 let req = new Request(url);
 let words = await req.loadJSON();
